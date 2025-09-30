@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Beyond Powers - Printers & Accessories</title>
+  <meta name="description" content="Beyond Powers - Sales & Purchase of Old Printers, Toner Cartridges, and Computer Accessories.">
+  <style>
+    :root {--blue:#1d4ed8;--dark:#1f2937;--light:#f9fafb}
+    body{margin:0;font-family:system-ui,Segoe UI,Roboto,Arial;line-height:1.6;background:var(--light);color:var(--dark)}
+    header{background:url('https://images.unsplash.com/photo-1581091215367-59ab6cda8e1b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600') center/cover no-repeat;color:#fff;text-align:center;padding:5rem 1rem;position:relative}
+    header::after{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.55)}
+    header h1,header p,nav{position:relative;z-index:2}
+    header h1{font-size:3rem;margin:0}
+    header p{font-size:1.2rem;margin-top:.5rem}
+    nav{margin-top:1rem}
+    nav a{color:#fff;margin:0 1rem;text-decoration:none;font-weight:bold}
+    nav a:hover{text-decoration:underline}
+    main{max-width:1100px;margin:auto;padding:3rem 1.5rem}
+    h2{color:var(--blue)}
+    .btn{display:inline-block;background:var(--blue);color:#fff;padding:.7rem 1.2rem;border-radius:8px;text-decoration:none;margin:.5rem}
+    .btn:hover{background:#0f3fad}
+    .contact-details{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.5rem;margin-top:2rem}
+    .contact-card{background:#fff;padding:1rem 1.2rem;border-radius:10px;box-shadow:0 4px 12px rgba(0,0,0,0.05)}
+    iframe{width:100%;border:none;border-radius:10px;min-height:300px;margin-top:1rem}
+    footer{background:#111;color:#ccc;text-align:center;padding:1.5rem;margin-top:2rem}
+  </style>
+</head>
+<body>
+  <!-- Hero -->
+  <header>
+    <h1>Beyond Powers</h1>
+    <p>Your trusted partner for printers, cartridges & computer accessories</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="products.html#quotation">Get a Quote</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- About Section -->
+  <main>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>At <strong>Beyond Powers</strong>, we specialize in the <em>sale and purchase of old printers, toner cartridges (inkjet & laser), and computer accessories</em>.  
+         Our goal is to provide affordable, high-quality products while promoting sustainability.</p>
+      <p><strong>Owner:</strong> Mr. Balbir Singh</p>
+      <a href="products.html" class="btn">🛒 Browse Products</a>
+      <a href="products.html#quotation" class="btn">📩 Get a Quote</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Reach us via phone, email, or visit our shop directly.</p>
+      <div class="contact-details">
+        <div class="contact-card">
+          <h3>📍 Address</h3>
+          <p>D-1/85, Mansa Ram Park<br>
+             Near Pillar No. 761, Near Jindal Chowk<br>
+             New Delhi, India - 110059</p>
+        </div>
+        <div class="contact-card">
+          <h3>📞 Phone</h3>
+          <p><a href="tel:+919871288555">+91 98712 88555</a><br>
+             <a href="tel:+919266669270">+91 92666 69270</a></p>
+        </div>
+        <div class="contact-card">
+          <h3>✉️ Email</h3>
+          <p><a href="mailto:sales.beyondpowers@gmail.com">sales.beyondpowers@gmail.com</a></p>
+        </div>
+        <div class="contact-card">
+          <h3>🕒 Working Hours</h3>
+          <p>Monday - Saturday: 9:30 AM – 7:00 PM<br>Sunday: Closed</p>
+        </div>
+      </div>
+
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.390178412214!2d77.03791931502297!3d28.617916582420054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0483dd9e4d45%3A0x3dc49dd47cebb6c1!2sMansa%20Ram%20Park%2C%20Uttam%20Nagar%2C%20New%20Delhi!5e0!3m2!1sen!2sin!4v1636619999999!5m2!1sen!2sin" 
+        allowfullscreen="" loading="lazy"></iframe>
+    </section>
+  </main>
+
+  <footer>
+    <small>© 2025 Beyond Powers · Owned by Mr. Balbir Singh · sales.beyondpowers@gmail.com</small>
+  </footer>
+</body>
+</html>
